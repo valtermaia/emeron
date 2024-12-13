@@ -5,9 +5,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:emeron/core/utils/constants/constants.dart';
 import 'package:emeron/core/utils/widgets/default_stack.widgets.dart';
 import 'package:emeron/features/auth/presentation/controllers/auth.controller.dart';
-import 'package:emeron/core/utils/helpers/validators/formatters/cpf_input.formatter.dart';
 
 class AuthPage extends GetView<AuthController> {
+  const AuthPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

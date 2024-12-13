@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:emeron/core/utils/constants/image.constants.dart';
 import 'package:emeron/core/utils/widgets/default_stack.widgets.dart';
 import 'package:emeron/features/home/presentation/controllers/home.controller.dart';

@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import 'package:emeron/core/services/exceptions/api.exceptions.dart';
-import 'package:emeron/features/auth/domain/entities/token.entity.dart';
 import 'package:emeron/features/auth/domain/repositories/iauth.repository.dart';
 import 'package:emeron/features/auth/domain/usecases/authenticate_with_firebase_user.usecase.dart';
 
