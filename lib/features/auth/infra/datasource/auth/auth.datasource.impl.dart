@@ -16,7 +16,12 @@ class AuthDataSourceImpl implements IAuthDatasource {
     try {
       final response = await _httpService.post(
         'https://api-hmg.emeron.edu.br/users/login',
-        body: json.encode(dto.toJson()),
+        body: json.encode(
+          {
+            "email": dto.login,
+            "password": dto.password,
+          },
+        ),
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',

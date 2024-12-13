@@ -20,6 +20,12 @@ class AuthController extends GetxController {
   set cpf(String value) => cpfText.value = value;
   set pass(String value) => passText.value = value;
 
+  @override
+  void onInit() {
+    super.onInit();
+    cpfController.text = '74952013200';
+  }
+
   // generate Signin method
   Future<void> signIn() async {
     try {

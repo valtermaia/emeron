@@ -45,9 +45,6 @@ class AuthPage extends GetView<AuthController> {
                         label: 'user',
                         errorText: controller.errorMessage.value,
                         controller: controller.cpfController,
-                        onChanged: (value) => controller.validateCPF(value),
-                        inputFormatters: [CPFInputFormatter()],
-                        keyboardType: TextInputType.number,
                       ),
                     ),
                     Obx(() {
